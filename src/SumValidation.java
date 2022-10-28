@@ -18,6 +18,8 @@ public class SumValidation {
 		totalPricesAmounts=totalPricesAmounts+totalPerCourse;
 		}
 		System.out.println("TOTAL:"+totalPricesAmounts);
+		System.out.println("TOTAL1");
+		System.out.println("TOTAL2");
 	
 		int purchaseAmount=jsComplex.getInt("dashboard.purchaseAmount");
 		Assert.assertEquals(totalPricesAmounts, purchaseAmount);
