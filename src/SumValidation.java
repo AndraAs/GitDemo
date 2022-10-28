@@ -23,6 +23,7 @@ public class SumValidation {
 		System.out.println("TOTAL3");
 		System.out.println("TOTAL4");
 		System.out.println("change to develop branch");
+		System.out.println("change from x user");
 	
 		int purchaseAmount=jsComplex.getInt("dashboard.purchaseAmount");
 		Assert.assertEquals(totalPricesAmounts, purchaseAmount);
