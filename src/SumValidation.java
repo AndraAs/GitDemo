@@ -20,6 +20,8 @@ public class SumValidation {
 		System.out.println("TOTAL:"+totalPricesAmounts);
 		System.out.println("TOTAL1");
 		System.out.println("TOTAL2");
+		System.out.println("TOTAL3");
+		System.out.println("TOTAL4");
 	
 		int purchaseAmount=jsComplex.getInt("dashboard.purchaseAmount");
 		Assert.assertEquals(totalPricesAmounts, purchaseAmount);
